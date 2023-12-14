@@ -8,11 +8,13 @@ def surprise():
     return 'SURPRISE!'
 
 # TODO 1) Change what is assigned into the func_1 variable so test_1 will pass
-func_1 = None
+def test_1():
+    print('test 1')
+func_1 = test_1()
 
 # TODO 2) Change the return statement below so that test_2 will pass
 def pizza_surprise():
-    return None
+    return True
 
 # TODO 3) Implement the birthday_surprise function so that test_3 will pass
 def birthday_surprise(years_old):
