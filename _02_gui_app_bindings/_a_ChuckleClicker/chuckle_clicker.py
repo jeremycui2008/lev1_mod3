@@ -17,7 +17,7 @@ class ChuckleClicker(tk.Tk):
 
         # TODO: Declare and initialize 2 buttons (tk.Button)
         #  one button for the joke and another for the punchline
-
+        (tk.button)
         # TODO: Place the 2 buttons next to each other (see example image)
 
         # TODO: Call the joke button's bind() method to call the on_joke()
