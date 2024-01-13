@@ -31,7 +31,13 @@ def birthday_surprise(years):
 # TODO 4) Implement the surprise_guests function so that test_3 will pass
 #  *HINT* You will have to add input parameters to the function
 def surprise_guests(guests):
-
+    people=str(guests)
+    welcome=",here's a pizza!"
+    partygoer=input('do you need pizza?')
+    if partygoer=='pizza':
+        return str(people) + 'says'+'SURPRISE!'+str(welcome)
+    else:
+        return str(people) + 'says'+'SURPRISE!'
     return None
 
 # ================== DO NOT MODIFY THE CODE BELOW ============================
