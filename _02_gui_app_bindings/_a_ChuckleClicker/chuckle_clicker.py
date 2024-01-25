@@ -14,10 +14,10 @@ def generate_random_letter():
 class ChuckleClicker(tk.Tk):
     def __init__(self):
         super().__init__()
-
+        hi=tk.Tk()
         # TODO: Declare and initialize 2 buttons (tk.Button)
         #  one button for the joke and another for the punchline
-        (tk.button)
+        robert=tk.Button(hi, text="JOKE")
         # TODO: Place the 2 buttons next to each other (see example image)
 
         # TODO: Call the joke button's bind() method to call the on_joke()
@@ -28,12 +28,12 @@ class ChuckleClicker(tk.Tk):
         #  method when a mouse button is pressed
 
     def on_joke(self, event):
-        print('Joke button pressed')
+        print('Jwhy did the chicken cross the road')
 
         # TODO: Write your joke below!
 
     def on_punchline(self, event):
-        print('Punchline button pressed')
+        print('to be transported to the butchery')
 
         # TODO: Write a punchline to your joke!
 

@@ -20,7 +20,6 @@ def birthday_surprise(years_old):
     return 'SURPRISE, Happy' +vars(years_old) + 'Birthday!'
 # TODO 4) Implement the surprise_guests function so that test_3 will pass
 #  *HINT* You will have to add input parameters to the function
-
 def surprise_guests():
     return None
 
