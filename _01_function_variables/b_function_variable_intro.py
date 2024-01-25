@@ -7,20 +7,31 @@ import unittest
 def surprise():
     return 'SURPRISE!'
 
+func_1=surprise
+
 # TODO 1) Change what is assigned into the func_1 variable so test_1 will pass
-func_1=surprise()
+
 
 # TODO 2) Change the return statement below so that test_2 will pass
 def pizza_surprise():
     return "SURPRISE, here's a pizza!"
 
 # TODO 3) Implement the birthday_surprise function so that test_3 will pass
-def birthday_surprise(years_old):
-    years_old = 1
-    return 'SURPRISE, Happy' +vars(years_old) + 'Birthday!'
+def birthday_surprise(years):
+    ordinal="th"
+    years_old = str(years)
+    if years_old[-1]=='1':
+        ordinal='st'
+    elif years_old[-1]=='2':
+        ordinal='nd'
+    elif years_old[-1]=='3':
+        ordinal='rd'
+    return 'SURPRISE, Happy '  +str(years_old)+ordinal+  ' birthday!!!'
+
 # TODO 4) Implement the surprise_guests function so that test_3 will pass
 #  *HINT* You will have to add input parameters to the function
-def surprise_guests():
+def surprise_guests(guests):
+
     return None
 
 # ================== DO NOT MODIFY THE CODE BELOW ============================
