@@ -37,7 +37,7 @@ class ChuckleClicker(tk.Tk):
 
 
         # TODO: Write a punchline to your joke!
-
+        random=
 
 if __name__ == '__main__':
     pass
