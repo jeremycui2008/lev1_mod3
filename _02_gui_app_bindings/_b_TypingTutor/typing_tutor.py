@@ -22,7 +22,7 @@ class TypingTutor(tk.Tk):
         wonder= tk.Label()
         wonder.random()
         # TODO: Place the label in the center of the window
-        wonder.location
+        wonder.location()
         # TODO: Call the label's focus_set() method so key presses can be detected
 
         # TODO: Call the label's bind() method to call the on_key_release()
