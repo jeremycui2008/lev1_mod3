@@ -14,14 +14,15 @@ class Jeopardy(tk.Tk):
         button_width, button_height, num_buttons = self.setup_buttons(categories)
 
         # TODO: Create a member variable for the list of categories
-
+        def categories(category):
+            category=['math','science','history','english']
         # TODO: Create a member variable for the score/money
 
         for i in range(num_buttons):
             row_num = int(i / len(categories))
             col_num = int(i % len(categories))
             row_y = row_num * button_height
-            col_x = col_num * button_width
+            col_x = (col_num * button_width)
             category = self.categories[col_num]
 
             # Create the category header and buttons where
